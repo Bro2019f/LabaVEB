@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Form.css">
+    
+</head>
+<body class="bg">
+
+  <div class="form-wrap">
+  <div class="profile">
+  <form class="form2"  method="POST">
+  <fieldset class="fin5_reg">
+  <label class="fin1">Реєстрація</label><br>
+  <div class="fin3">
+  <label class="fin2">Email:
+  <div class="fin4">
+    <input id="email" placeholder="Email" onblur="FirstUP(this)" class="fin2" type="email"
+    name="Email" required>
+  </div>
+  </label><br></div>
+  <div class="fin3">
+  <label class="fin2">Мобільний:
+  <div class="fin4">
+    <input id="tel" placeholder="Phone" onblur="FirstUP(this)" class="fin2" type="tel"
+    name="Мобільний" required>
+  </div>
+  </label><br>
+  </div>
+  <div class="fin3">
+  <label class="fin2">Ваше ім'я:
+  <div class="fin4">
+    <input id="name" placeholder="Name" onblur="FirstUP(this)" class="fin2" type="text"
+    name="Ваше ім'я" required>
+  </div>
+  
+  </label><br>
+  </div>
+  <div class="fin3">
+  <label class="fin2">Ваше Прізвище:
+  <div class="fin4">
+    <input id="sname" placeholder="Secound Name" onblur="FirstUP(this)" class="fin2"
+    type="text" name="Ваше Прізвище">
+  </div>
+  
+  
+  
+  </label><br>
+  </div>
+  <div class="buttons2">
+  
+    <a href="index.html"><input id="cancel" onmouseover="Over(this)" onmouseout="Out(this)"
+        type="button" class="button" value="    Скасувати    "></a>
+
+<a href="#"> <input id="next" type="button" onmouseover="Over(this)" onmouseout="Out(this)"
+        onclick="Validation()" class="button" value="       Далі      ">
+  </a>
+  </div>
+  </fieldset>
+  </form>
+  
+  </div>
+  </div>
+  <script type="text/javascript" src="js2.js"></script>
+  </body>
+  
+  </html>
+      <script type="text/javascript" src="js2.js"></script>
+</body>
+</html>

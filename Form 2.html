@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Form.css">
+    
+</head>
+<body>
+    <div class="form-wrap">
+        <div class="profile"><img src="">
+          <h1>Реєстрація</h1>
+        </div>
+        <form  method="POST" >
+          <div>
+            <label for="name">Имя</label>
+            <input type="text" name="nam" class="name" id="nam" required>
+          </div>
+          <div >
+            <label for="name">Номер телефону</label>
+            <input type="text" name="tel" class="tel" id="tele" required maxlength="12" placeholder="380">
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input type="text" name="email" class="E-mail" id="emma">
+          </div>
+            <button onclick="cal_oll()"  type="submit">Нажміть</button> 
+            <!--<input id="next" type="submit"  onclick="validate_form ( )" class="button" value="  ">-->
+        </form> 
+      </div>
+      <script type="text/javascript" src="jos.js"></script>
+</body>
+</html>
